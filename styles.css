@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f9f9f9;
-	font-size: 16px;
+	font-size: 18px; /* Agrandado */
 }
 
 header {
@@ -16,7 +16,7 @@ header {
 
 header h1 {
 	margin: 0;
-	font-size: 1.8em;
+	font-size: 2em; /* Agrandado */
 }
 
 main {
@@ -45,9 +45,9 @@ main {
 	width: 100%;
 	background: #f1f1f1;
 	border: none;
-	padding: 15px;
+	padding: 20px; /* Agrandado */
 	text-align: left;
-	font-size: 1em;
+	font-size: 1.1em; /* Agrandado */
 	cursor: pointer;
 	outline: none;
 	transition: background 0.3s ease;
@@ -65,14 +65,14 @@ main {
 
 .accordion-content {
 	display: none;
-	padding: 15px;
+	padding: 20px; /* Agrandado */
 	background: #fff;
 	border-top: 1px solid #eee;
 }
 
 .accordion-content h3 {
 	margin-top: 0;
-	font-size: 1.2em;
+	font-size: 1.5em; /* Agrandado */
 	color: #007BFF;
 }
 
@@ -82,8 +82,8 @@ main {
 }
 
 .accordion-content li {
-	margin-bottom: 10px;
-	font-size: 0.9em;
+	margin-bottom: 12px; /* Agrandado */
+	font-size: 1em; /* Agrandado */
 }
 
 .accordion-content li strong {
@@ -110,7 +110,7 @@ main {
 
 @media (max-width: 600px) {
 	header h1 {
-			font-size: 1.5em;
+			font-size: 1.8em; /* Agrandado */
 	}
 
 	.accordion {
@@ -118,19 +118,19 @@ main {
 	}
 
 	.accordion-button {
-			padding: 12px;
-			font-size: 0.9em;
+			padding: 18px; /* Agrandado */
+			font-size: 1em; /* Agrandado */
 	}
 
 	.accordion-content {
-			padding: 12px;
+			padding: 18px; /* Agrandado */
 	}
 
 	.accordion-content h3 {
-			font-size: 1.1em;
+			font-size: 1.3em; /* Agrandado */
 	}
 
 	.accordion-content li {
-			font-size: 0.85em;
+			font-size: 1em; /* Agrandado */
 	}
 }
